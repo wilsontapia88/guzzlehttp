@@ -18,7 +18,7 @@ class AppServiceProvider extends ServiceProvider
             
             return new Client([
                 // Base URI is used with relative requests
-                'base_uri' => 'http://36957.simplo7.net/ws/',
+                'base_uri' => 'https://jsonplaceholder.typicode.com',
                 // You can set any number of default request options.
                 'timeout'  => 2.0
             ]);

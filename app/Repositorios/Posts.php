@@ -11,7 +11,7 @@ class Posts extends GuzzleHttpRequest
     
     public function all()
     {   
-        return $this->get('wscategorias');
+        return $this->get('posts');
     }
 
     public function find($id)

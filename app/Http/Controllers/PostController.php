@@ -22,8 +22,7 @@ class PostController extends Controller
     {
        
         $posts = $this->posts->all();
-        
-        dd($posts);
+    
       
         return view('postsindex', compact('posts'));
     }
